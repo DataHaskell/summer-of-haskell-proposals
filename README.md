@@ -4,7 +4,11 @@ This repository collects ideas that will be submitted to the Google Summer of Co
 
 Both prospective students and mentors are encouraged to discuss new proposals with the rest of the DataHaskell community at https://gitter.im/dataHaskell/Lobby .
 
-All the DataHaskell SoH project proposals are listed in the following.
+The project ideas will be submitted first to Haskell.org (via https://summer.haskell.org/ideas.html , https://github.com/haskell-org/summer-of-haskell ) and ultimately to Google. ()
+
+All student must apply between March 12 and March 27, 2018 (see the timeline : https://summerofcode.withgoogle.com/how-it-works/#timeline).
+
+The current list of DataHaskell-related GSoC project proposals are listed in the following.
 
 
 
