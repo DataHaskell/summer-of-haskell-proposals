@@ -23,9 +23,7 @@ This project aims at creating a comfortable API (e.g. an embedded domain-specifi
 
 | **Intensity** | **Priority** | **Involves**  | **Mentors** |
 | ------------- | -----------| ------------- | ----------- |
-| Moderate      | Medium     | Haskell       | [Marco Zocca](mailto:zocca.marco gmail) |
-
-
+| Moderate      | Medium     | Haskell       | [Marco Zocca](mailto:zocca.marco&#64;gmail) |
 
 ## Extending `Frames` with new storage formats
 
@@ -38,4 +36,50 @@ The project will likely involve interfacing two or more pre-existing libraries (
 
 | **Intensity** | **Priority**  | **Involves**  | **Mentors** |
 | ------------- | -----------| ------------- | ----------- |
-| Moderate      | Medium     | Haskell, C    | [Marco Zocca](mailto:zocca.marco gmail) |
+| Moderate      | Medium     | Haskell, C    | [Marco Zocca](mailto:zocca.marco&#64;gmail) |
+
+## Expand json-autotype support to other functional programming languages
+
+[json-autotype](http://github.com/mgajda/json-autotype) is currently the *most advanced* type and parser generator from JSON to Haskell. Using union types it works as most accurate type providers.
+
+It was of great outside interest to enhance it to produce types and parsers for other strongly-typed programming languages like Elm, PureScript, Scala, Elixir, F#, or Java.
+This project is of great practical importance, and will allow us to pitch Haskell as practical language to other strongly-typed language communities..
+
+### Description
+
+| **Intensity** | **Priority** | **Involves**  | **Mentors** |
+| ------------- | -----------| ------------- | ----------- |
+| Light         | High       | Haskell, Elm, PureScript, Scala, Elixir | [Michal Gajda](mailto:migamake&#64;migamake.com) |
+
+## Expand json-autotype to directly query whole Web APIs, and create Servant endpoints
+
+[json-autotype](http://github.com/mgajda/json-autotype) is currently the *most advanced* type and parser generator from JSON to Haskell.
+However most programmers are not using JSON just to read and write it, but to interact with Web APIs. One would dream about generating the whole WebAPI types, and either client calls, and server endpoints just from Swagger descriptions, or a bunch of queries to the WebAPIs.
+
+Implementing this project would put Haskell as possibly the best language to interact with WebAPIs in typed way. It would also make it superior to pure GraphQL solutions which are state-of-art now.
+
+### Description
+
+| **Intensity** | **Priority** | **Involves**  | **Mentors** |
+| ------------- | -----------| ------------- | ----------- |
+| Difficult     | High       | Haskell, Servant or Apiary | [Michal Gajda](mailto:migamake&#64;migamake.com) |
+
+## Automatic finding of Data Science libraries for the project
+
+As our package database ([Hackage](https://hackage.haskell.org)) grows, we get more and more data formats that can be easily parsed by our code. But it is increasingly difficult to find relevant parsers, and check whether they support given file format out-of-the-box.
+
+Data Scientist interested in quick-and-dirty analyses need to either:
+* spend some time just on parser and library discover for new formats,
+* limit themselves to projects that only use formats they know well (like `.csv`),
+* fall back to inefficient process using dynamically typed languages like Python and Octave.
+
+It would be great to use Stackage and Hackage to establish a database of supported formats,
+along with demonstration code that reads given file type.
+First we can build the tool that automatically recognizes types and tries to parse them with the standard libraries, then we put it onto the web service, that takes data directory, and gives Haskell program that parses all the data inside.
+
+### Description
+
+| **Intensity** | **Priority** | **Involves**  | **Mentors** |
+| ------------- | -----------| ------------- | ----------- |
+| Moderate      | Medium       | Haskell | [Michal Gajda](mailto:migamake&#64;migamake.com) |
+
