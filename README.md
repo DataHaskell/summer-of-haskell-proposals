@@ -23,7 +23,7 @@ This project aims at creating a comfortable API (e.g. an embedded domain-specifi
 
 | **Intensity** | **Priority** | **Involves**  | **Mentors** |
 | ------------- | -----------| ------------- | ----------- |
-| Moderate      | Medium     | Haskell       | [Marco Zocca](mailto:zocca.marco gmail) |
+| Moderate      | Medium     | Haskell       | [Marco Zocca](mailto:zocca.marco&#64;gmail) |
 
 ## Extending `Frames` with new storage formats
 
@@ -36,7 +36,7 @@ The project will likely involve interfacing two or more pre-existing libraries (
 
 | **Intensity** | **Priority**  | **Involves**  | **Mentors** |
 | ------------- | -----------| ------------- | ----------- |
-| Moderate      | Medium     | Haskell, C    | [Marco Zocca](mailto:zocca.marco gmail) |
+| Moderate      | Medium     | Haskell, C    | [Marco Zocca](mailto:zocca.marco&#64;gmail) |
 
 ## Expand json-autotype support to other functional programming languages
 
@@ -49,7 +49,7 @@ This project is of great practical importance, and will allow us to pitch Haskel
 
 | **Intensity** | **Priority** | **Involves**  | **Mentors** |
 | ------------- | -----------| ------------- | ----------- |
-| Light         | High       | Haskell, Elm, PureScript, Scala, Elixir | [Michal Gajda](mailto:migamake migamake.com) |
+| Light         | High       | Haskell, Elm, PureScript, Scala, Elixir | [Michal Gajda](mailto:migamake&#64;migamake.com) |
 
 ## Expand json-autotype to directly query whole Web APIs, and create Servant endpoints
 
@@ -62,7 +62,7 @@ Implementing this project would put Haskell as possibly the best language to int
 
 | **Intensity** | **Priority** | **Involves**  | **Mentors** |
 | ------------- | -----------| ------------- | ----------- |
-| Difficult     | High       | Haskell, Servant or Apiary | [Michal Gajda](mailto:migamake migamake.com) |
+| Difficult     | High       | Haskell, Servant or Apiary | [Michal Gajda](mailto:migamake&#64;migamake.com) |
 
 ## Automatic finding of Data Science libraries for the project
 
@@ -81,5 +81,5 @@ First we can build the tool that automatically recognizes types and tries to par
 
 | **Intensity** | **Priority** | **Involves**  | **Mentors** |
 | ------------- | -----------| ------------- | ----------- |
-| Moderate      | Medium       | Haskell | [Michal Gajda](mailto:migamake migamake.com) |
+| Moderate      | Medium       | Haskell | [Michal Gajda](mailto:migamake&#64;migamake.com) |
 
